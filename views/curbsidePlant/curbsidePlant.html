@@ -1,0 +1,20 @@
+<ion-view view-title="街边风景">
+    <ion-header-bar>
+        <a ui-sref="tabs.home"><i class="icon backarr"></i></a>
+        <h1>街边风景</h1>
+    </ion-header-bar>
+    <ion-content class="indoor" overflow-scroll='false'>
+        <div ng-repeat="curbsidePlant in plantList[0].category[2].curbside" class="indoor-content clearfix">
+            <div class="indoor-img">
+                <img ng-src="{{curbsidePlant.img}}">
+            </div>
+            <h4 class="indoor-title">{{curbsidePlant.title}}</h4>
+            <p class="indoor-desc">{{curbsidePlant.desc}}</p>
+            <ul class="indoor-icon cate-icon clearfix">
+                <li><a href="javascript:;"><i class="icon"></i> {{curbsidePlant.share}}</a></li>
+                <li><a href="javascript:;"><i class="icon"></i> {{curbsidePlant.comment}}</a></li>
+                <li><a href="javascript:;"><i class="icon"></i> {{curbsidePlant.favor}}</a></li>
+            </ul>
+        </div>
+    </ion-content>
+</ion-view>

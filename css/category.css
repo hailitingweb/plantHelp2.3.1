@@ -1,0 +1,454 @@
+.bar.bar-header h1 {
+    font-size: 5vw;
+    font-weight: 700;
+    color: #222;
+    margin: 0 auto;
+    line-height: 5vh;
+}
+.category{
+    width: 140%;
+    margin: 1.3rem 0;
+}
+.category-plant{
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    left:0;
+    top:0;
+    height: 100vh;
+}
+.category-plant a img{
+    display: inline;
+}
+.category-plant li{
+    width: 50%;
+    padding: .8vh;
+    position: absolute;
+    overflow: hidden;
+}
+.category1 .category-plant li:nth-child(1){
+    height: 25vh;
+    top: 0px;
+    left: 0px;
+}
+.category1 .category-plant li:nth-child(2){
+    height: 21vh;
+    top: 0px;
+    left: 50%;
+}
+.category1 .category-plant li:nth-child(3){
+    height: 20vh;
+    top: 21vh;
+    left: 50%;
+}
+.category1 .category-plant li:nth-child(4){
+    height: 37vh;
+    top: 25vh;
+    left: 0px;
+}
+.category1 .category-plant li:nth-child(5){
+    height: 35vh;
+    top: 41vh;
+    left: 50%;
+}
+.category1 .category-plant li:nth-child(6){
+    height: 36vh;
+    top: 62vh;
+    left: 0px;
+}
+.category1 .category-plant li:nth-child(7){
+    height: 22vh;
+    top: 76vh;
+    left: 50%;
+}
+.category1 .category-plant li:nth-child(8){
+    height: 39vh;
+    top: 98vh;
+    left: 0;
+}
+.category1 .category-plant li:nth-child(9){
+    height: 28vh;
+    top: 97.5vh;
+    left: 50%;
+}
+.category1 .category-plant li:nth-child(10){
+    height: 37vh;
+    top: 125.5vh;
+    left: 50%;
+}
+.category1 .category-plant li:nth-child(11){
+    height: 36vh;
+    top: 137vh;
+    left: 0;
+}
+.category1 .category-plant li:nth-child(12){
+    height: 41vh;
+    top: 162.5vh;
+    left: 50%;
+}
+.category1 .category-plant li:nth-child(13){
+    height: 19vh;
+    top: 174vh;
+    left: 0;
+}
+.category1 .category-plant li:nth-child(14){
+    height: 36vh;
+    top: 193vh;
+    left: 0;
+}
+.category1 .category-plant li:nth-child(15){
+    height: 37vh;
+    top: 204vh;
+    left: 50%;
+}
+.category1 .category-plant li:nth-child(16){
+    height: 22vh;
+    top: 229vh;
+    left: 0;
+}
+.category1 .category-plant li:nth-child(17){
+    height: 42vh;
+    top: 241vh;
+    left: 50%;
+}
+.category1 .category-plant li:nth-child(18){
+    height: 35vh;
+    top: 251.5vh;
+    left: 0;
+}
+.category-plant p{
+    position: absolute;
+    bottom: .2vh;
+    left: 3.8vw;
+    color: #fff;
+    font-size: 2.5vh;
+}
+.category1 .scroll-content,.category1{
+    overflow: visible;
+}
+.category2 .category-plant li:nth-child(1){
+    height: 21vh;
+}
+.category2 .category-plant li:nth-child(4){
+    height: 41vh;
+    top: 22vh;
+}
+.category2 .category-plant li:nth-child(5){
+    height: 46vh;
+    top: 42vh;
+}
+.category2 .category-plant li:nth-child(6){
+    height: 37vh;
+    top: 63vh;
+}
+.category2 .category-plant li:nth-child(7){
+    height: 17vh;
+    top: 89vh;
+    left: 50%;
+}
+.category2 .category-plant li:nth-child(8){
+    height: 40vh;
+    top: 100vh;
+    left: 0;
+}
+.category2 .category-plant li:nth-child(9){
+    height: 22vh;
+    top: 106.5vh;
+    left: 50%;
+}
+.category2 .category-plant li:nth-child(10){
+    height: 28vh;
+    top: 128vh;
+    left: 50%;
+}
+.category2 .category-plant li:nth-child(11){
+    height: 36vh;
+    top: 141vh;
+    left: 0;
+}
+.category2 .category-plant li:nth-child(12){
+    height: 37vh;
+    top: 156vh;
+    left: 50%;
+}
+.category2 .category-plant li:nth-child(13){
+    height: 24vh;
+    top: 178.5vh;
+    left: 0;
+}
+.category2 .category-plant li:nth-child(14){
+    height: 41vh;
+    top: 193vh;
+    left: 50%;
+}
+.category2 .category-plant li:nth-child(15){
+    height: 41vh;
+    top: 204vh;
+    left: 0;
+}
+.category2 .category-plant li:nth-child(16){
+    height: 20vh;
+    top: 234vh;
+    left: 50%;
+}
+.category2 .category-plant li:nth-child(17){
+    height: 37vh;
+    top: 245.5vh;
+    left: 0;
+}
+.category2 .category-plant li:nth-child(18){
+    height: 40vh;
+    top: 254vh;
+    left: 50%;
+}
+
+.category3 .category-plant li:nth-child(1){
+    height: 19vh;
+}
+.category3 .category-plant li:nth-child(2){
+    height: 19vh;
+}
+.category3 .category-plant li:nth-child(3){
+    height: 18vh;
+    top: 20vh;
+    left: 0;
+}
+.category3 .category-plant li:nth-child(4){
+    height: 37vh;
+    top: 20vh;
+    left: 50%;
+}
+.category3 .category-plant li:nth-child(5){
+    height: 39vh;
+    top: 38vh;
+    left: 0;
+}
+.category3 .category-plant li:nth-child(6){
+    height: 36vh;
+    top: 57vh;
+    left: 50%;
+}
+.category3 .category-plant li:nth-child(7){
+    height: 18vh;
+    top: 79vh;
+    left: 0;
+}
+.category3 .category-plant li:nth-child(8){
+    height: 40vh;
+    top: 98vh;
+    left: 0;
+}
+.category3 .category-plant li:nth-child(9){
+    height: 28vh;
+    top: 95vh;
+    left: 50%;
+}
+.category3 .category-plant li:nth-child(10){
+    height: 19vh;
+    top: 116vh;
+    left: 50%;
+}
+.category3 .category-plant li:nth-child(11){
+    height: 40vh;
+    top: 134vh;
+    left: 50%;
+}
+.category3 .category-plant li:nth-child(12){
+    height: 19vh;
+    top: 140vh;
+    left: 0;
+}
+.category3 .category-plant li:nth-child(13){
+    height: 19vh;
+    top: 159vh;
+    left: 0;
+}
+.category3 .category-plant li:nth-child(14){
+    height: 41vh;
+    top: 174vh;
+    left: 50%;
+}
+.category3 .category-plant li:nth-child(15){
+    height: 41vh;
+    top: 178vh;
+    left: 0;
+}
+.category3 .category-plant li:nth-child(16){
+    height: 21vh;
+    top: 216vh;
+    left: 50%;
+}
+.category3 .category-plant li:nth-child(17){
+    height: 42vh;
+    top: 219vh;
+    left: 0;
+}
+.category3 .category-plant li:nth-child(18){
+    height: 35vh;
+    top: 237.5vh;
+    left: 50%;
+}
+
+.category4 .category-plant li:nth-child(1){
+    height: 23vh;
+}
+.category4 .category-plant li:nth-child(2){
+    height: 20vh;
+}
+.category4 .category-plant li:nth-child(3){
+    height: 20vh;
+    top: 20vh;
+}
+.category4 .category-plant li:nth-child(4){
+    top: 23vh;
+}
+.category4 .category-plant li:nth-child(5){
+    height: 36vh;
+    top: 40vh;
+    left: 50%;
+}
+.category4 .category-plant li:nth-child(6){
+    height: 40vh;
+    top: 60vh;
+    left: 0px;
+}
+.category4 .category-plant li:nth-child(8){
+    height: 48vh;
+    top: 101vh;
+    left: 0;
+}
+.category4 .category-plant li:nth-child(9){
+    height: 21vh;
+    top: 98vh;
+    left: 50%;
+}
+.category4 .category-plant li:nth-child(10){
+    height: 22vh;
+    top: 119.5vh;
+    left: 50%;
+}
+.category4 .category-plant li:nth-child(11){
+    height: 36vh;
+    top: 141.5vh;
+    left: 50%;
+}
+.category4 .category-plant li:nth-child(12){
+    height: 21vh;
+    top: 149.5vh;
+    left: 0;
+}
+.category4 .category-plant li:nth-child(13){
+    height: 19vh;
+    top: 171vh;
+    left: 0;
+}
+.category4 .category-plant li:nth-child(14){
+    height: 37vh;
+    top: 178vh;
+    left: 50%;
+}
+.category4 .category-plant li:nth-child(15){
+    height: 37vh;
+    top: 190vh;
+    left: 0;
+}
+.category4 .category-plant li:nth-child(16){
+    height: 16vh;
+    top: 215vh;
+    left: 50%;
+}
+.category4 .category-plant li:nth-child(17){
+    height: 37vh;
+    top: 227vh;
+    left: 0;
+}
+.category4 .category-plant li:nth-child(18){
+    height: 36vh;
+    top: 231.5vh;
+    left: 50%;
+}
+.category5 .category-plant li:nth-child(1){
+    height: 22vh;
+}
+.category5 .category-plant li:nth-child(2){
+    height: 19vh;
+}
+.category5 .category-plant li:nth-child(3){
+    height: 21vh;
+    top: 19vh;
+}
+.category5 .category-plant li:nth-child(4){
+    height: 39vh;
+    top: 22vh;
+    left: 0px;
+}
+.category5 .category-plant li:nth-child(5){
+    height: 41vh;
+    top: 40vh;
+    left: 50%;
+}
+.category5 .category-plant li:nth-child(6){
+    height: 36vh;
+    top: 61vh;
+    left: 0px;
+}
+.category5 .category-plant li:nth-child(7){
+    height: 19vh;
+    top: 81vh;
+    left: 50%;
+}
+.category5 .category-plant li:nth-child(8){
+    height: 39vh;
+    top: 97vh;
+    left: 0;
+}
+.category5 .category-plant li:nth-child(9){
+    height: 22vh;
+    top: 100vh;
+    left: 50%;
+}
+.category5 .category-plant li:nth-child(10){
+    height: 41vh;
+    top: 122vh;
+    left: 50%;
+}
+.category5 .category-plant li:nth-child(11){
+    height: 36vh;
+    top: 136vh;
+    left: 0;
+}
+.category5 .category-plant li:nth-child(12){
+    height: 19vh;
+    top: 163.5vh;
+    left: 50%;
+}
+.category5 .category-plant li:nth-child(13){
+    height: 19vh;
+    top: 173vh;
+    left: 0;
+}
+.category5 .category-plant li:nth-child(14){
+    height: 21vh;
+    top: 183vh;
+    left: 50%;
+}
+.category5 .category-plant li:nth-child(15){
+    height: 19vh;
+    top: 193vh;
+    left: 0;
+}
+.category5 .category-plant li:nth-child(16){
+    height: 46vh;
+    top: 205vh;
+    left: 50%;
+}
+.category5 .category-plant li:nth-child(17){
+    height: 28vh;
+    top: 213vh;
+    left: 0;
+}
+.category5 .category-plant li:nth-child(18){
+    height: 21vh;
+    top: 241.5vh;
+    left: 0;
+}

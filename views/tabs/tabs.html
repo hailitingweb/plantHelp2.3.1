@@ -1,0 +1,27 @@
+<ion-tabs class="tabs-icon-top bar-light" >
+    <ion-tab title="首页" icon-on="icon ion-ios-home" icon-off="icon ion-ios-home-outline"
+             ui-sref="tabs.home" >
+        <ion-nav-view name="home-tab"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="分类" icon-on="icon ion-ios-keypad" icon-off="icon ion-ios-keypad-outline"
+             ui-sref="tabs.category.deciduousTrees">
+        <ion-nav-view name="category-tab"></ion-nav-view>
+    </ion-tab>
+    
+    <ion-tab title="" icon-on="icon ion-ios-camera" icon-off="icon ion-ios-camera-outline"
+             ui-sref="camera">
+        <ion-nav-view name="camera-tab"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="圈子" icon-on="icon ion-ios-cog" icon-off="icon ion-ios-cog-outline"
+             ng-click="circle()">
+             <!--ui-sref="tabs.circle">-->
+        <ion-nav-view name="circle-tab"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="我" icon-on="icon ion-happy" icon-off="icon ion-happy-outline"
+             ng-click="me()">
+             <!--ui-sref="tabs.me">-->
+        <ion-nav-view name="me-tab"></ion-nav-view>
+    </ion-tab>
+</ion-tabs>

@@ -1,0 +1,410 @@
+.circle .bar.bar-header h1 {
+    font-size: 3vh;
+    font-weight: 700;
+    color: #222;
+    margin: 0 auto;
+    line-height: 4vh;
+}
+.circle .slider {
+    position: absolute;
+    z-index: -10;
+}
+.circle .slider-slide>img{
+    width: 100%;
+    height: 100%;
+
+}
+.circle .lists .list:first-child{
+    border-top: 3vh solid #eee;
+}
+.circle .lists .list{
+    border-top: 2vh solid #eee;
+    padding: 2vh 6vw;
+    margin: 0;
+}
+.circle .page-name{
+    padding: 16vh 6vw 0;
+}
+.circle .page-name span{
+    color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 6vh;
+    padding-left:8vh;
+}
+.circle .page-name p{
+    color: #ffffff;
+    font-size: 2.8vh;
+}
+.circle .page-name img{
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50%;
+    position: absolute;
+    top: 14vh;
+}
+.circle .list>a{
+    position: relative;
+    padding-left: 15vw;
+    display: block;
+    width: 36vh;
+}
+.circle .list>a span{
+    display: block;
+    color: #94AC65;
+    line-height: 4vh;
+    font-size: 2.6vh;
+}
+.circle .list>a time{
+    color: #999;
+    font-size: 1.5vh;
+}
+.circle .list>i{
+    background: url("../images/123_03.png") no-repeat center/cover;
+    width: 3vh;
+    height: 3vh;
+    position: absolute;
+    top: 3vh;
+    transform: rotate(-90deg);
+    right: 5vh;
+
+}
+.circle .list>a img{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+}
+.banner .slider-slides {
+    width: 100vw;
+    height: 50vw;
+    overflow: hidden;
+}
+.circle .row{
+    padding: 0;
+}
+.circle .list>p{
+    font-size: 2.4vh;
+    line-height: 4vh;
+    margin: 0;
+}
+.circle .operate a{
+    background: url("../images/14_07.png") no-repeat center left/100%;
+}
+.circle .lists {
+    background: #f7f7f7;
+}
+.circle .img .col.col-33>a{
+    display: block;
+    height: 15vh;
+}
+.circle .list>ul{
+    font-size: 0;
+    border-top: 1px solid #D5D5D5;
+    border-bottom: 1px solid #D5D5D5;
+    padding: .5vh 0;
+}
+.circle .list>ul>li{
+    display: inline-block;
+    font-size: 3vh;
+    position: relative;
+    width: 33%;
+    padding-left: 18%;
+    border-right: 1px solid #D5D5D5;
+}
+.circle .list>ul>li:last-child{
+    border-right: 1px solid transparent;
+}
+.circle .list>ul>li i{
+    width: 6.1vw;
+    height: 5.5vw;
+    position: absolute;
+    left: 7vw;
+    top: 0.5vh;
+}
+.circle .list>ul>li:nth-child(1) i{
+    background: url("../images/14_07.png") no-repeat center/cover;
+}
+.circle .list>ul>li:nth-child(2) i{
+    background: url("../images/14_09.png") no-repeat center/cover;
+}
+.circle .list>ul>li:nth-child(3) i{
+    background: url("../images/web_heart_animation.png") no-repeat 0px -7px/cover;
+    background-size: 5000%;
+}
+@keyframes icongo {
+    0%{
+        background: url("../images/web_heart_animation.png") no-repeat 0px -7px/cover;
+    }
+    10%{
+        background: url("../images/web_heart_animation.png") no-repeat -100px -7px/cover;
+    }
+    20%{
+        background: url("../images/web_heart_animation.png") no-repeat -200px -7px/cover;
+    }
+    30%{
+        background: url("../images/web_heart_animation.png") no-repeat -300px -7px/cover;
+    }
+    40%{
+        background: url("../images/web_heart_animation.png") no-repeat -400px -7px/cover;
+    }
+    50%{
+        background: url("../images/web_heart_animation.png") no-repeat -500px -7px/cover;
+    }
+    60%{
+        background: url("../images/web_heart_animation.png") no-repeat -600px -7px/cover;
+    }
+    70%{
+        background: url("../images/web_heart_animation.png") no-repeat -700px -7px/cover;
+    }
+    80%{
+        background: url("../images/web_heart_animation.png") no-repeat -800px -7px/cover;
+    }
+    90%{
+        background: url("../images/web_heart_animation.png") no-repeat -860px -7px/cover;
+    }
+    100%{
+        background: url("../images/web_heart_animation.png") no-repeat -925px -7px/cover;
+    }
+}
+.circle a.ng-binding {
+    line-height: 4.2vh;
+    font-size: 2.4vh;
+}
+.circle .list>ul>li:nth-child(3) a.loveicon i{
+    animation: icongo 1s ease;
+background: url("../images/web_heart_animation.png") no-repeat right center/cover;
+background-size: 5000%;
+}
+/**/
+.modal ion-content.scroll-content.ionic-scroll{
+     background: rgba(0,0,0,.6);
+}
+ion-modal-view.share.modal.slide-in-up.ng-enter.active.ng-enter-active ion-content.scroll-content.ionic-scroll{
+    background: #fff;
+    height: 16vh;
+}
+.modal.share{
+    height: 30vh;
+    min-height: 0;
+}
+.plus-more {
+    position: absolute;
+    top: 8px;
+    right:15px;
+    background-color: #fff;
+    list-style: none;
+    border-radius: .3rem;
+}
+.plus-more:before{
+    content: "";
+    position: absolute;
+    width: 0vh;
+    height: 0vh;
+    border: 1vh solid transparent;
+    border-bottom: 1vh solid #fff;
+    border-right: 1vh solid #fff;
+    transform: rotateZ(-133deg);
+    right: 2vh;
+    top: -.8vh;
+}
+.comment-input {
+    position: absolute;
+    bottom: -29vh;
+    padding: 1.6vh;
+    background: #FFF;
+    left: 0;
+    width: 100vw;
+}
+.plus-more a {
+    display: block;
+    /* width: 16vh; */
+    padding: 1vh 2vh 1vh 6vh;
+}
+.plus-more li:nth-child(1) a{
+    background: url("../images/122_06.png") no-repeat center left;
+}
+.plus-more li:nth-child(2) a{
+    background: url("../images/122_10.png") no-repeat center left;
+
+}
+.plus-more li:nth-child(3) a{
+    background: url("../images/122_08.png") no-repeat center left;
+
+}.plus-more li:nth-child(4) a{
+     background: url("../images/122_12.png") no-repeat center left;
+
+ }
+
+.chose{
+    background: #f7f7f7;
+    position: absolute;
+    bottom: -100vh;
+    width: 100%;
+}
+.modal-backdrop.active .ng-enter-active{
+    text-align: center;
+}
+.chose>a {
+    display: block;
+    color: #111111;
+    border-top: 1px solid #e0e0e0;
+    width: 98%;
+    margin: 0 auto;
+    line-height: 6vh;
+    font-size: 2vh;
+    font-weight: 600;
+}
+.modal-wrapper{
+    height: 100vh;
+    position: relative;
+}
+.chose>button {
+    border: navajowhite;
+    display: block;
+    width: 100%;
+    background: #F2F2F2;
+    border-top: 1vh solid #d6d6d6;
+    line-height: 7vh;
+    color: #739C26;
+    font-size: 2vh;
+    font-weight: 600;
+}
+.share{
+    top:84vh;
+    overflow: initial;
+    background: #F2F2F2;
+}
+.state {
+    position: absolute;
+    top: 40vh;
+    left: 32vw;
+}
+.modal-backdrop.active .overflow-scroll.transparent{
+    background: transparent;
+}
+.modal-backdrop.active .modal.slide-in-up.ng-enter.active.ng-enter-active.display{
+    display: none;
+}
+.state span {
+    color: #D7D7D7;
+    font-size: 2rem;
+    font-weight: lighter;
+    /* margin-top: -25rem; */
+    position: absolute;
+    top: 13vh;
+    left: 11vw;
+}
+.state img {
+    width: 38vw;
+}
+.input{
+    display: none;
+    opacity: 0;
+    transition: all .3s ease;
+}
+.showshare{
+    display: block;
+    opacity: 1;
+}
+.input span,.showshare span{
+    display: block;
+    text-align: left;
+}
+.input>span i,.showshare>span i {
+    width: 4vh;
+    height: 4vh;
+    display: inline-block;
+    margin: .6vh 2vw;
+}
+.input>span i:first-child,.showshare>span i:first-child{
+    background: url("../images/wink.png") no-repeat center/cover;
+}
+.input>span i:last-child,.showshare>span i:last-child{
+    background: url("../images/font-481.png") no-repeat center/cover;
+}
+.modal-backdrop.active .modal.slide-in-up.ng-enter.active.ng-enter-active {
+    background:transparent;
+}
+.showshare input{
+    display: inline-block;
+    height: 9vw;
+    border: none;
+    border-radius: .5vw;
+    font-size: 5vw;
+    vertical-align: middle;
+}
+.showshare input[type=text]{
+    width: 66vw;
+    padding-left: 4vw;
+    border:1px solid #829C4E;
+}
+.showshare input[type=submit]{
+    width: 20vw;
+    background: #829C4E;
+    color: #fff;
+}
+/*addstatus*/
+.addstatus{
+    background:#eee;
+}
+.addstatus i {
+    font-size: 4vh;
+    padding: 0 2vw;
+    color: #999;
+}
+form{
+    background:#fff;
+}
+.main>a {
+    line-height: 5vh;
+    height: 5vh;
+    padding-left: 3vw;
+}
+.header{
+    background: #000;
+}
+.header>a {
+    width: 11vw;
+    height: 6vh;
+    display: inline-block;
+}
+.header>input{
+    position: absolute;
+    right: 3vw;
+    top: 1vh;
+    min-height: .1vh;
+    height: 5.4vh;
+    line-height: 5.4vh;
+    background: #8397AC;
+    color: #fff;
+    border: navajowhite;
+}
+.main>textarea{
+    width: 93vw;
+    height: 40vw;
+    resize: none;
+    margin: 2vw auto;
+    font-size: 6vw;
+    line-height: 6vw;
+}
+.addstatus ul{
+    margin-top:2vh;
+}
+.addstatus ul li a {
+    background: #fff;
+    line-height: 11vw;
+    height: 11vw;
+    padding-left: 2vw;
+    margin-top: 1px;
+
+}
+
+
+
+
+
+
+
+

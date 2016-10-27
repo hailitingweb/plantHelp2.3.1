@@ -1,0 +1,151 @@
+.logo{
+    margin: 0 auto;
+    margin-bottom: 6.3vh;
+    width: 25.866vw;
+    height: 24.1vw;
+    max-height: 9rem;
+    margin-top:9vw;
+
+}
+.icon.logo{
+    margin-top: 2.8vh;
+
+}
+/*sign_sign_in*/
+
+.inner{width:76%;margin:0 auto;}
+.sign_same{
+    width: 100%;
+    border:1px solid #9eb474;
+    height:3.6rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+.sign_same input{
+    width:75%;
+    float: left;
+    font:normal 1.5rem/2rem "Microsoft YaHei";
+    color: #999999;
+}
+.sign_same i{
+    width:3rem;
+    height:3rem;
+    float: left;
+    padding: 0.5rem;
+}
+.sign_password a{
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+.sign_password{position: relative;}
+
+.sign_p input,.sign_p p{
+    font:normal 1.6rem/3rem "Microsoft YaHei";
+    width:100%;
+    margin:1rem 0;
+    border-radius: 5px;
+    height: 3rem;
+    width: 100%;
+    display: block;
+    background: #fff;
+    border: 1px solid #9eb474;
+}
+.enroll span{float: right;color: #999;display: block;}
+.login input,.login p{text-align: center;color: #9eb474;}
+.around p{text-align: center;color: #9EB474;border:1px solid #9EB474;}
+.other{border-bottom: 1px solid #999;position: relative;margin-top: 7rem;}
+.other p{
+    font:normal 1.5rem/2rem "Microsoft YaHei";
+    color:#999;
+    position: absolute;
+    top:-1.1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+}
+.other_icon{margin-top:3rem;}
+.other_icon a{display:inline-block ;text-align: center;}
+.other_icon img{width:2.5rem;height:2.3rem;display: inline;}
+
+/*sign——enroll*/
+
+.cancel{
+    color: #666;
+}
+/*.enroll_header{background: #fff;}
+.enroll_header .back i{ font-size: 1.5rem;color: #999;margin: 0.35rem;}
+.enroll_header .title{font:normal 1rem/2rem "Microsoft YaHei" ;color:#333333;margin: 0;text-align: center;}
+.enroll_header .button{border: none;background: #FFF;font-size: .8rem;font-family: "Microsoft YaHei";color: #999;}*/
+.enroll_inner{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+.enroll_inner .enroll_n{
+    line-height: 3.5rem;
+    width: 99%;
+    height:3.5rem;
+    border-bottom: 1px solid #9EB474;
+    margin:1rem 0;
+    padding: 0 0.9rem;
+    background: #fff;
+    position: relative;
+}
+.enroll_inner .enroll_n input{
+    font:normal 1.5rem/2rem "Microsoft YaHei";
+    color:#999;
+    border: none;
+    padding-left: 12vw;
+}
+#tel{
+    background: url("../images/0_103.png") no-repeat left center;
+    background-size: 5vw;
+}
+#pw{
+    background: url("../images/0_06.png") no-repeat left center;
+    background-size: 5vw;
+}
+#forkey{
+    background: url("../images/0_08.png") no-repeat left center;
+    background-size: 5vw;
+}
+.verification{
+    font:normal 1.2rem/2.5rem "Microsoft YaHei" ;
+    border: 1px solid #9EB474;
+    height:2.5rem;
+    display:inline-block;
+    color: #999;
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+._radio, ._radio a{
+    font:normal 1.3rem/2rem "Microsoft YaHei";
+    color: #9EB474;
+}
+
+.enroll_btn{
+    width:82%;
+    background: #9EB474;
+    color: #FFFFFF;
+    text-align: center;
+    font:normal 1.2rem/3rem "Microsoft YaHei";
+    border-radius: 5px;
+    margin: 2rem auto;
+}
+.enroll_btn a{
+    display: block;
+}
+input:-webkit-autofill{
+    background-color: rgb(255, 255,255);
+}
+#scroll-content{
+    background: #fff;
+}
+.edit input{
+    display: block;
+    width: 100%;
+}

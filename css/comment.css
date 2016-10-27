@@ -1,0 +1,79 @@
+.comment-link {
+    height: 6vh;
+    display: block;
+}
+.article img {
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50%;
+    position: absolute;
+    left: 2vh;
+    top: 1vh;
+}
+.article i {
+    position: absolute;
+    bottom: 4px;
+    right: 1vh;
+    color: #7BAD71;
+    font-size: 2vh;
+}
+.comment ion-content.scroll-content.ionic-scroll {
+    background: #F9F9F9;
+}
+.comment .scroll {
+    background: #fff;
+}
+
+.comment-input textarea:first-child{
+    display: inline-block;
+    border: 1px solid #eee;
+    border-radius: 1.5vh;
+    box-shadow: 0 0 1px 1px #A29D9D inset;
+    width: 76vw;
+    padding: 1vh 0 0 2vw;
+    line-height: 4vw;
+    resize: none;
+}
+.comment-input input:nth-child(2){
+    border: none;
+    background: transparent;
+    display: inline-block;
+    color: #6E6E6E;
+}
+.article li:last-child{
+    border: none;
+}
+.article li {
+    position: relative;
+    padding-left: 18vw;
+    height: 13vh;
+    padding-bottom: 18vw;
+    border-bottom: 1px solid #D0D0D0
+}
+.article a.ng-binding {
+    line-height: 4vh;
+    font-size: 2.3vh;
+    color: #111;
+    padding-top: 1.5vh;
+    display: block;
+}
+.article{
+    padding: 0 5vw;
+    border-top: 1px solid #999;
+}
+.article time {
+   position: absolute;
+top: 2vh;
+right: 0;
+font-size: 1.5vh;
+color: #999;
+}
+
+
+
+
+
+
+
+
+

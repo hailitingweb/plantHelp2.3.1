@@ -1,0 +1,134 @@
+
+.me .bar.bar-header{
+    text-align: center;
+}
+.me .bar.bar-header h1{
+    font-size: 5vw;
+    font-weight: 700;
+    color: #222;
+    margin: 0 auto;
+    line-height: 5vh;
+}
+ button.button.button-clear.button-plus{
+    background: url("../images/5_032.png") no-repeat center;
+    width: 1.4rem;
+    background-size: 130%;
+    position: absolute;
+    right: 2rem;
+}
+.me .item{
+    text-align: center;
+    padding-bottom: 1.2vh;
+    border-bottom: 2.2vh solid #f7f7f7;
+}
+.me .item img{
+    width: 19vw;
+    border-radius: 50%;
+    height: 19vw;
+    display: inline;
+}
+.me .item span{
+display: block;
+    font-size: 4vw;
+    color: #777;
+    font-weight: 500;
+    line-height: 4vh;
+}
+.me .row{
+    padding:2vh;    border-bottom: 2.2vh solid #f7f7f7;background: #fff;
+}
+.me .col.col-33{
+    position: relative;
+    text-align: center;
+    border-right: 1px solid #e0e0e0;
+    padding: .4vh;
+}
+.me .col.col-33:last-child{
+    border: none;
+}
+.me .col.col-33:first-child i:nth-child(1){
+    background: url("../images/5_03.png") no-repeat center/cover;
+}
+.col.col-33:nth-child(2) i:nth-child(1){
+    background: url("../images/5_05.png") no-repeat center/cover;
+}
+.me .col.col-33:nth-child(3) i:nth-child(1){
+    background: url("../images/5_07.png") no-repeat center/cover;
+}
+.me .col.col-33 span{
+    padding-left: 2.8rem;
+    color: #666;
+    font-size: 3.6vw;
+}
+.me .col.col-33 i{
+    position: absolute;
+    width: 7vw;
+    height: 6.5vw;
+}
+.me .col.col-33 i:nth-child(1){
+    left: 7vw;
+}
+.me .list{
+    position: relative;
+}
+.me .arr{
+    background: url("../images/14_03.png") no-repeat center/cover;
+    position: absolute;
+    width: .5rem;
+    height: 1.5rem;
+    transform: rotateY(180deg);
+    right: 1rem;top: 1.8vh;
+}
+.me .list ul{
+    padding: 0 2vw;
+    border-bottom: 2.2vh solid #f7f7f7;background: #fff;
+}
+.me .list ul li{
+    padding: 0rem;
+    margin: 0rem;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background: #fff;
+    line-height: 7vh;
+    text-align: left;
+    padding-left: 15vw;
+    font-size: 3vh;
+}
+.me .list ul li:last-child{
+    border: none;
+}
+.me .list ul li i:nth-child(1){
+    position: absolute;
+    width: 7vw;
+    height: 6.5vw;
+    left: 1rem;
+    top: 1.5vh;
+}
+.me .list ul li i:nth-child(2){
+    transform: rotateY(180deg);
+
+}
+.me .list ul:nth-child(1) li:nth-child(1) i:nth-child(1) {
+    background: url("../images/5_13.png") no-repeat center/cover;
+}
+.me .list ul:nth-child(1) li:nth-child(2) i:nth-child(1) {
+    background: url("../images/5_16.png") no-repeat center/cover;
+}
+.me .list ul:nth-child(2) li:nth-child(1) i:nth-child(1) {
+    background: url("../images/5_18.png") no-repeat center/cover;
+}
+.me .list ul:nth-child(2) li:nth-child(2) i:nth-child(1) {
+    background: url("../images/5_20.png") no-repeat center/cover;
+}
+.list ul:nth-child(2) li:nth-child(2) i:nth-child(1) {
+    background: url("../images/5_20.png") no-repeat center/cover;
+}
+.me .list ul:nth-child(2) li:nth-child(3) i:nth-child(1) {
+    background: url("../images/5_22.png") no-repeat center/cover;
+}
+.me .list ul:nth-child(3) li:nth-child(1) i:nth-child(1) {
+    background: url("../images/5_24.png") no-repeat center/cover;
+}
+.me .list ul:nth-child(3) li:nth-child(2) i:nth-child(1) {
+    background: url("../images/5_26.png") no-repeat center/cover;
+}

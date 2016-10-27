@@ -1,0 +1,65 @@
+<ion-view>
+    <ion-content id="content_home" overflow-scroll='false'>
+        <div class="banner">
+            <ion-slide-box auto-play="true" does-continue="true" slide-interval="3000" show-pager="true">
+                <ion-slide>
+                    <div class="box">
+                        <img src="images/banner01.jpg">
+                        <p class="p1">枯木为泣 多肉为艺</p><p class="p2">简单易做的多肉小景</p>
+                    </div>
+                </ion-slide>
+                <ion-slide>
+                    <div class="box">
+                        <img src="images/banner02.jpg">
+                        <p class="p1">枯木为泣 多肉为艺</p><p class="p2">简单易做的多肉小景</p>
+                    </div>
+                </ion-slide>
+                <ion-slide>
+                    <div class="box">
+                        <img src="images/nav2.jpg">
+                        <p class="p1">枯木为泣 多肉为艺</p><p class="p2">简单易做的多肉小景</p>
+                    </div>
+                </ion-slide>
+            </ion-slide-box>
+        </div>
+    	<div class="search">
+    		<i class="icon ion-search placeholder-icon"></i>
+    		<input type="search" placeholder="索搜植物帮上的内容或文字">
+    	</div>
+		<ion-scroll direction="x" style="overflow: hidden;" overflow-scroll='false'>
+    		<div class="nav clearfix">
+				<a class="nav_plant col col-25" ui-sref="indoorPlant">
+					<img src="images/nav1.jpg"><span>室内小物</span>
+				</a>
+				<a class="nav_plant col col-25" ui-sref="courtyardPlant">
+					<img src="images/nav2.jpg"><span>庭院深深</span>
+				</a>
+				<a class="nav_plant col col-25" ui-sref="curbsidePlant">
+					<img src="images/nav3.jpg"><span>街边风情</span>
+				</a>
+				<a class="nav_plant col col-25" ui-sref="succulentPlant">
+					<img src="images/nav4.jpg"><span>萌萌多肉</span>
+				</a>
+			</div>
+		</ion-scroll>
+		<div class="home-recommend clearfix">
+			<h3>[每日一荐]</h3>
+			<p class="more">更多</p>
+			<div class="recommend-img" ng-click="toPlantDetails(91)">
+				<img src="images/xqh.jpg">
+				<span>绣球花</span>
+			</div>
+			<p class="desc">绣球花是一种常见的庭院花卉，性喜阴湿，怕旱又怕涝。其伞形花序如雪球累累，簇拥在椭圆形的绿叶中，煞是好看。</p>
+		</div>
+		<div class="home-recommend clearfix" ng-repeat="recommendPlant in recommendPlants">
+			<h3>[精品推荐]</h3>
+			<p class="more">更多</p>
+			<div class="recommend-img" ng-click="toDetailDesc(recommendPlant.title)">
+				<img ng-src="{{recommendPlant.image}}">
+				<span>{{recommendPlant.title}}</span>
+			</div>
+			<p class="desc">{{recommendPlant.desc}}</p>
+		</div>
+		<ion-infinite-scroll on-infinite="getRecommendPlants()" ng-if="total>page" immediate-check="false"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>

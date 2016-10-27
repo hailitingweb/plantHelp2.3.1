@@ -1,0 +1,121 @@
+<ion-view view-title="我的" class="me">
+    <ion-header-bar>
+        <h1>我的</h1>
+        <button class="button button-clear button-plus" ng-click="plus()"></button>
+        <ul class="plus-more" ng-if="show" ng-click="plus()">
+            <li><a href="javascript:;">加好友</a></li>
+            <li><a href="javascript:;">快速分享</a></li>
+            <li><a href="javascript:;">扫一扫</a></li>
+            <li><a href="javascript:;">面对面快传</a></li>
+        </ul>
+    </ion-header-bar>
+    <ion-content>
+        <div class="item">
+            <a href="javascript:;" ng-click="headImg.show()">
+                <img ng-src="{{meLists[0].userId.headImg}}">
+                <span>樱桃小丸子</span>
+            </a>
+        </div>
+        <div class="row">
+            <div class="col col-33">
+                <a href="javascript:;">
+                    <i class="icon"></i>
+                    <span>植物</span>
+                </a>
+            </div>
+            <div class="col col-33">
+                <a href="#/withMystery">
+                    <i class="icon"></i>
+                    <span>植迷</span>
+                </a>
+            </div>
+            <div class="col col-33">
+                <a href="javascript:;">
+                    <i class="icon"></i>
+                    <span>关注</span>
+                </a>
+            </div>
+        </div>
+        <div class="list">
+            <ul>
+                <li class="item item-divider">
+                    <a href="#/myPlantHouse">
+                        <i class="icon"></i>我的植物馆 <i class="icon arr"></i>
+                    </a>
+                </li>
+                <li class="item item-divider">
+                    <a href="#/myPraise">
+                        <i class="icon"></i>我的赞 <i class="icon arr"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="item item-divider">
+                    <a href="#/drafts">
+                        <i class="icon"></i>草稿箱 <i class="icon arr"></i>
+                    </a>
+                </li>
+                <li class="item item-divider">
+                    <a href="#/browsingHistory">
+                        <i class="icon"></i>浏览历史 <i class="icon arr"></i>
+                    </a>
+                </li>
+                <li class="item item-divider">
+                    <a ui-sref="personalHome">
+                        <i class="icon"></i>个人信息<i class="icon arr"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="item item-divider">
+                    <a href="#/setup">
+                        <i class="icon"></i>设置<i class="icon arr"></i>
+
+                    </a>
+                </li>
+                <li class="item item-divider" ng-click="shareApp.show()">
+                    <a href="javascript:;">
+                        <i class="icon"></i>分享植物库APP<i class="icon arr"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script id="headImg.html" type="text/ng-template">
+            <ion-modal-view>
+                <ion-content>
+                    <div class="headImg">
+                        <ul>
+                            <li> <h5>选择头像</h5></li>
+                            <li><img ng-src="{{arr[0]}}"></li>
+                            <li><a href="javascript:;"><img ng-src="{{arr[1]}}" ng-click="changeImg(arr[1])"></a> </li>
+                            <li><a href="javascript:;"><img ng-src="{{arr[2]}}" ng-click="changeImg(arr[2])"></a> </li>
+                            <li><a href="javascript:;"><img ng-src="{{arr[3]}}" ng-click="changeImg(arr[3])"></a> </li>
+                            <li><a href="javascript:;"><img ng-src="{{arr[4]}}" ng-click="changeImg(arr[4])"></a> </li>
+                            <li>
+                                <button  ng-click="closeModal(headImg)">确定</button>
+                                <button  ng-click="headImg.hide()">取消</button>
+                            </li>
+                        </ul>
+                    </div>
+                </ion-content>
+            </ion-modal-view>
+        </script>
+        <script id="shareApp.html" type="text/ng-template">
+            <ion-modal-view>
+                <ion-content>
+                    <div class="shareApp">
+
+                        <ul>
+                            <li> <h5>更多选项</h5></li>
+                            <li><a href="javascript:;" ng-click="shareApp.hide()"><img src="images/5.1_03.png"></a> </li>
+                            <li><a href="javascript:;" ng-click="shareApp.hide()"><img src="images/5.1_07.png"></a> </li>
+                            <li><a href="javascript:;" ng-click="shareApp.hide()"><img src="images/5.1_10.png"></a> </li>
+                            <li><a href="javascript:;" ng-click="shareApp.hide()"><img src="images/5.1_05.png"></a> </li>
+                            <li><button  ng-click="shareApp.hide()">取消</button></li>
+                        </ul>
+                    </div>
+                </ion-content>
+            </ion-modal-view>
+        </script>
+    </ion-content>
+</ion-view>

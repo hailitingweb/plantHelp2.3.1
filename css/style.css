@@ -1,0 +1,152 @@
+html,body{
+    font-size: 62.5%;
+    font-family: "Microsoft YaHei";
+    background: #f7f7f7;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+ion-content.scroll-content.ionic-scroll.has-header.has-tabs{
+    background: #f7f7f7;
+}
+.welcome ion-slide.slider-slide {
+    height: 100vh;
+}
+.welcome img{
+    height: 100vh;
+    width:100vw;
+}
+a{
+    color: #666666;
+    text-decoration: none;
+    font-size: 2.5vh;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 1.8vh;
+    color: #666;
+}
+button.button.button-clear.button-plus{
+    background: url("../images/5_032.png") no-repeat center;
+    width: 1.4rem;
+    background-size: 130%;
+    position: absolute;
+    right: 2rem;
+}
+.clearfix::after{
+    clear:both;
+    content:'.';
+    display:block;
+    height: 0;
+    visibility:hidden;
+}
+.clearfix{
+    zoom: 1;
+}
+.tabs{
+    height: auto;
+    padding-top: .5rem;
+}
+.ion-ios-home:before{
+    content: "";
+    background: url("../images/11_07.png") no-repeat top center;
+    width: 3.3rem;
+    height: 3.3rem;
+    background-size: contain;
+}
+
+/*
+a.tab-item {
+    height: 9vh;
+}
+*/
+ion-content.scroll-content.ionic-scroll.overflow-scroll.has-header.has-tabs-top{
+    top: 7vh;
+    bottom: 10vh;
+}
+.tabs-top>.tabs, .tabs.tabs-top{
+    top:90vh;
+}
+/*ion-content#content_home{
+    top:0;
+}*/
+.tabs-top>.tabs, .tabs.tabs-top {
+    padding-top: 1vh;
+}
+.tab-item.tab-item-active span{
+    color: #9eb377;
+}
+/*
+*/
+.ion-ios-home-outline:before {
+    content: "";
+    background: url("../images/12_07.png") no-repeat top center;
+    background-size: contain;
+    width: 3.3rem;
+    height: 3.3rem;
+}
+.ion-ios-keypad:before {
+    content: "";
+    background: url("../images/11_09.png") no-repeat top center;
+    background-size: contain;
+    width: 3.3rem;
+    height: 3.3rem;
+}
+.ion-ios-keypad-outline:before {
+    content: "";
+    background: url("../images/12_09.png") no-repeat top center;
+    background-size: contain;
+    width: 3.3rem;
+    height: 3.3rem;
+}
+.ion-ios-camera:before {
+    content: "";
+    background: url("../images/11_11.png") no-repeat center center;
+    background-size: contain;
+    width:3.3rem;
+    height: 3.8rem;
+}
+.ion-ios-camera-outline:before {
+    content: "";
+    background: url("../images/12_11.png") no-repeat center center;
+    background-size: contain;
+    width: 3.3rem;
+    height: 3.8rem;
+}
+.ion-ios-cog:before {
+    content: "";
+    background: url("../images/11_13.png") no-repeat top center;
+    background-size: contain;
+    width: 3.3rem;
+    height: 3.3rem;
+}
+.ion-ios-cog-outline:before {
+    content: "";
+    background: url("../images/12_13.png") no-repeat top center;
+    background-size: contain;
+    width: 3.3rem;
+    height: 3.3rem;
+}
+.ion-happy:before {
+    content: "";
+    background: url("../images/11_15.png") no-repeat top center;
+    background-size: contain;
+    width:3.3rem;
+    height: 3.3rem;
+}
+.ion-happy-outline:before {
+    content: "";
+    background: url("../images/12_15.png") no-repeat top center;
+    background-size: contain;
+    width: 3.3rem;
+    height: 3.3rem;
+}
+.tab-item{
+    overflow: visible;
+}
+.tab-item span{
+    line-height: 25px;
+    font-size: 1.5rem;
+}

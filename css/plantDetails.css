@@ -1,0 +1,101 @@
+.details-img{
+    height: 46vh;
+    overflow: hidden;
+}
+.details-content{
+    padding: 2.5vh;
+    font-family: "Microsoft JhengHei";
+}
+.details-content .details-name{
+    font-weight: 900;
+    color: #000;
+}
+.details-content p{
+    color: #666;
+    font-size: 2.5vh;
+    line-height: 3.6vh;
+    margin: 0;
+}
+.details-content p span{
+    color: #9fb377;
+}
+
+.details-content p i{
+    font-style: italic;
+}
+.details-content .desc,.details-content .text{
+    text-indent: 2em;
+    padding: 2vh 1vw;
+    height: auto;
+}
+.details-content .type{
+    height: 26vh;
+}
+.details-content .type li{
+    float: left;
+    text-align: center;
+    height: 13vh;
+}
+.details-content .type .small-icon{
+    width: 70%;
+    margin: 0 auto;
+    height: 7vh;
+}
+.details-content .type .pic1{
+    background: url("../images/2.1_03.png") no-repeat center /cover;
+}
+.details-content .type .pic2{
+    background: url("../images/2.1_06.png") no-repeat center /cover;
+}
+.details-content .type .pic3{
+    background: url("../images/2.1_08.png") no-repeat center /cover;
+}
+.details-content .type .pic4{
+    background: url("../images/2.1_10.png") no-repeat center /cover;
+}
+.details-content .type .pic5{
+    background: url("../images/2.1_16.png") no-repeat center /cover;
+}
+.details-content .type .pic6{
+    background: url("../images/2.1_18.png") no-repeat center /cover;
+}
+.details-content .type .pic7{
+    background: url("../images/2.1_21.png") no-repeat center /cover;
+}
+.details-content .type .pic8{
+    background: url("../images/2.1_23.png") no-repeat center /cover;
+}
+
+.details-content .type .change .pic1{
+    background: url("../images/2.2_03.png") no-repeat center /cover;
+}
+.details-content .type .change .pic2{
+    background: url("../images/2.2_06.png") no-repeat center /cover;
+}
+.details-content .type .change .pic3{
+    background: url("../images/2.2_08.png") no-repeat center /cover;
+}
+.details-content .type .change .pic4{
+    background: url("../images/2.2_10.png") no-repeat center /cover;
+}
+.details-content .type .change .pic5{
+    background: url("../images/2.2_16.png") no-repeat center /cover;
+}
+.details-content .type .change .pic6{
+    background: url("../images/2.2_18.png") no-repeat center /cover;
+}
+.details-content .type .change .pic7{
+    background: url("../images/2.2_21.png") no-repeat center /cover;
+}
+.details-content .type .change .pic8{
+    background: url("../images/2.2_23.png") no-repeat center /cover;
+}
+.details-content .type li span{
+    text-align: center;
+    color: #333;
+    height: 5vh;
+    line-height: 5vh;
+}
+.details-content .type .change span{
+    color: #9fb377;
+}

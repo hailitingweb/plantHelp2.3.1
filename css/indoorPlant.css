@@ -1,0 +1,86 @@
+.indoor{
+    background: #f7f7f7;
+    overflow: hidden;
+}
+.backarr{
+    background: url("../images/14_03.png") no-repeat center /cover;
+    width: 6vw;
+    height: 6vw;
+    left: 5vw;
+    position: absolute;
+    top: 1.8vh;
+}
+.indoor-content{
+    margin-top: 1rem;
+    background-color: #fff;
+}
+.indoor .indoor-img{
+    display: block;
+}
+.indoor .indoor-title{
+    color: #000;
+    padding-left:6%;
+    font-size: 1.9rem;
+}
+.indoor .indoor-desc{
+    color: #666;
+    margin:0 1% 0 3%;
+    padding:0 3% .8rem;
+    font-size: 1.6rem;
+    width: 94%;
+    border-bottom: 1px solid #eee;
+}
+.indoor .indoor-icon{
+    float: right;
+}
+.indoor .cate-icon{
+    color: #999;
+    font-size: 2rem;
+    height: 3.6rem;
+    line-height: 3.6rem;
+    padding: 0 6vw;
+}
+.indoor .indoor-icon>li{
+    float: left;
+    position: relative;
+    margin-left: 4rem;
+}
+.indoor ul>li i{
+    width: 5.2vw;
+    height: 2.9vh;
+    position: absolute;
+    left: -7vw;
+    top: 1.3vh;
+}
+.indoor ul>li:nth-child(1) i{
+    background: url("../images/14_07.png") no-repeat center /cover;
+}
+.indoor ul>li:nth-child(2) i{
+    background: url("../images/14_09.png") no-repeat center /cover;
+}
+.indoor ul>li:nth-child(3) i{
+    background: url("../images/14_11.png") no-repeat center /cover;
+}
+.indoor ul .color i{
+    background: url("../images/123_11.png") no-repeat center /cover!important;
+}
+.scroll-bar-v{
+    width: 0;
+}
+.indoor .courtyard-icon>li{
+    width: 33%;
+    float: left;
+    position: relative;
+    padding-left: 18%;
+}
+.indoor .courtyard-icon>li i{
+    width: 5.2vw;
+    height: 3vh;
+    position: absolute;
+    left: 9vw;
+    top: 1.3vh;
+}
+.indoor a.ng-binding {
+    line-height: 4.2vh;
+    font-size: 2.4vh;
+}

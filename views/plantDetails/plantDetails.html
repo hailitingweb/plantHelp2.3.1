@@ -1,0 +1,34 @@
+<ion-view view-title="{{plantDetails.name}}">
+    <ion-header-bar>
+        <a href="javascript:history.back()"><i class="icon backarr"></i></a>
+        <h1>{{plantDetails.name}}</h1>
+    </ion-header-bar>
+    <ion-content>
+        <div class="details-img"><img ng-src="{{plantDetails.imageUrl}}"></div>
+        <div class="details-content">
+            <h3 class="details-name">{{plantDetails.name}}</h3>
+            <p><span>[学名]</span> &nbsp;<i>{{plantDetails.scientificName}}</i></p>
+            <p><span>[科属]</span> &nbsp;{{plantDetails.type}}</p>
+            <p><span>[别名]</span> &nbsp;{{plantDetails.alias}}</p>
+            <p class="desc">{{plantDetails.desc}}</p>
+            <ul class="type clearfix">
+                <li class="col col-25" ng-click="selectType(1)" ng-class="selectedType == 1?'change':''"><a href="javascript:;"><p class="small-icon pic1"></p><span>习性</span></a></li>
+                <li class="col col-25" ng-click="selectType(2)" ng-class="selectedType == 2?'change':''"><a href="javascript:;"><p class="small-icon pic2"></p><span>形态</span></a></li>
+                <li class="col col-25" ng-click="selectType(3)" ng-class="selectedType == 3?'change':''"><a href="javascript:;"><p class="small-icon pic3"></p><span>栽培</span></a></li>
+                <li class="col col-25" ng-click="selectType(4)" ng-class="selectedType == 4?'change':''"><a href="javascript:;"><p class="small-icon pic4"></p><span>繁殖</span></a></li>
+                <li class="col col-25" ng-click="selectType(5)" ng-class="selectedType == 5?'change':''"><a href="javascript:;"><p class="small-icon pic5"></p><span>产地</span></a></li>
+                <li class="col col-25" ng-click="selectType(6)" ng-class="selectedType == 6?'change':''"><a href="javascript:;"><p class="small-icon pic6"></p><span>品种</span></a></li>
+                <li class="col col-25" ng-click="selectType(7)" ng-class="selectedType == 7?'change':''"><a href="javascript:;"><p class="small-icon pic7"></p><span>应用</span></a></li>
+                <li class="col col-25" ng-click="selectType(8)" ng-class="selectedType == 8?'change':''"><a href="javascript:;"><p class="small-icon pic8"></p><span>文化</span></a></li>
+            </ul>
+            <pre><p class="text" ng-if="selectedType == 1">{{plantDetails.habits}}</p></pre>
+            <pre><p class="text" ng-if="selectedType == 2">{{plantDetails.shape}}</p></pre>
+            <pre><p class="text" ng-if="selectedType == 3">{{plantDetails.grow}}</p></pre>
+            <pre><p class="text" ng-if="selectedType == 4">{{plantDetails.reproduction}}</p></pre>
+            <pre><p class="text" ng-if="selectedType == 5">{{plantDetails.origin}}</p></pre>
+            <pre><p class="text" ng-if="selectedType == 6">{{plantDetails.variety}}</p></pre>
+            <pre><p class="text" ng-if="selectedType == 7">{{plantDetails.application}}</p></pre>
+            <pre><p class="text" ng-if="selectedType == 8">{{plantDetails.culture}}</p></pre>
+        </div>
+    </ion-content>
+</ion-view>

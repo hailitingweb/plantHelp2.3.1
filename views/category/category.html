@@ -1,0 +1,30 @@
+<ion-view  view-title="类别">
+    <ion-header-bar>
+        <h1>类别</h1>
+        <i class="icon ion-ios-search-strong" style="font-size: 4.3vh;padding: .6vh 3vw 0 0;"></i>
+    </ion-header-bar>
+    <ion-content id="content_category">
+        <ion-scroll direction="x" style="overflow: hidden;" overflow-scroll='false'>
+            <div class="nav category clearfix">
+                <a href="javascript:;" class="nav_plant col col-20" ui-sref="tabs.category.deciduousTrees">
+                    <img src="images/category/1.jpg"><span>落叶乔木</span>
+                </a>
+                <a href="javascript:;" class="nav_plant col col-20" ui-sref="tabs.category.evergreenTree">
+                    <img src="images/category/19.jpg"><span>常绿乔木</span>
+                </a>
+                <a href="javascript:;" class="nav_plant col col-20" ui-sref="tabs.category.deciduousShrub">
+                    <img src="images/category/37.jpg"><span>落叶灌木</span>
+                </a>
+                <a href="javascript:;" class="nav_plant col col-20" ui-sref="tabs.category.evergreenShrub">
+                    <img src="images/category/56.jpg"><span>常绿灌木</span>
+                </a>
+                <a href="javascript:;" class="nav_plant col col-20" ui-sref="tabs.category.aquaticPlant">
+                    <img src="images/category/73.jpg"><span>水生植物</span>
+                </a>
+            </div>
+        </ion-scroll>
+        <ion-nav-view name="category-tab"></ion-nav-view>
+
+
+    </ion-content>
+</ion-view>

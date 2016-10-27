@@ -1,0 +1,29 @@
+<ion-view view-title="评论" class="comment">
+            <div class="comment-input">
+                <form name="sentcomment">
+                    <textarea type="text" placeholder="评论" ng-model="info.comment">
+                        
+                    </textarea> 
+                    <input type="submit"
+                           ng-disabled="sentcomment.$invalid"
+                           value="发送"
+                           ng-click="sentComment(info.comment)">
+                </form>
+            </div>
+    <ion-content>
+        <a href="javascript:history.back()" class="comment-link"><i class="icon backarr"></i></a>
+        <div class="article">
+            <ul>
+                <li ng-repeat="item in items">
+                    <a href="javascript:;">
+                        <img ng-src="{{item.CimgUser}}">
+                        {{item.CuserName}}
+                    </a>
+                    <time>{{item.Ctime}}</time>
+                    <p>{{item.item}}</p>
+                    <i ng-click="modal.show()">回复</i>
+                </li>
+            </ul>
+        </div>
+    </ion-content>
+</ion-view>

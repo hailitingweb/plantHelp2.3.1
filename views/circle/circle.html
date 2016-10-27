@@ -1,0 +1,101 @@
+<ion-view view-title="圈子" class="circle">
+    <ion-header-bar>
+        <h1>圈子</h1>
+        <button class="button button-clear button-plus" ui-sref="addStatus"></button>
+    </ion-header-bar>
+    <ion-content>
+        <div class="page-main">
+            <div class="banner">
+                <ion-slide-box auto-play="true" does-continue="true">
+                    <ion-slide>
+                        <div><img src="images/circle/circle01.png"></div>
+                    </ion-slide>
+                    <ion-slide>
+                        <div><img src="images/circle/circle02.png"></div>
+                    </ion-slide>
+                    <ion-slide>
+                        <div><img src="images/circle/circle03.png"></div>
+                    </ion-slide>
+                </ion-slide-box>
+                <div class="page-name">
+                    <img ng-src="{{meLists[0].userId.headImg}}">
+                    <span>樱桃小丸子</span>
+                    <p>{{circleData[5].item}}</p>
+                </div>
+            </div>
+            <div class="lists">
+                <div class="list" ng-repeat="item in circleData">
+                    <a href="javascript:;">
+                        <img ng-src="{{item.userImg}}">
+                        <span>{{item.userName}}</span>
+                        <time>{{item.time}}</time>
+                    </a>
+                    <i class="icon arr" ng-click="modal.show()" index="{{item.circleData}}"></i>
+                    <p>{{item.item}}</p>
+                    <div class="row img">
+                        <div class="col col-33" ng-repeat="itemImg in item.img">
+                            <a href="javascript:;"><img ng-src="{{itemImg}}" ></a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li ng-click="shareShow(item.id)">
+                            <a href="javascript:;"><i class="icon" > </i>{{item.share}}</a>
+                        </li>
+                        <li>
+                            <a href="#/comment?id={{item.id}}"><i class="icon"></i>{{item.comment[1].comment.length}}</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;"
+                               ng-click="favor(item.favor,item.id)"
+                               ng-class="isture==item.id?'loveicon':''">
+                                <i class="icon"></i>{{item.favor}}
+                            </a>
+                        </li>
+                    </ul>
+                     <div class="input" ng-class="share==item.id?'showshare':'input'">
+                        <span><i class="facelook"></i><i></i></span>
+                        <div>
+                            <input type="text" autofocus>
+                            <input type="submit" value="发送" ui-sref="tabs.circle" ng-click="shareShow(item.id)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script id="bigImg.html" type="text/ng-template">
+            <ion-modal-view>
+                <ion-content>
+                   <div>
+                       <img ng-src="{{bigImg}}">
+                   </div>
+                </ion-content>
+            </ion-modal-view>
+        </script>
+        <script id="more.html" type="text/ng-template">
+            <ion-modal-view class="modal">
+                <ion-content ng-class="transparent">
+                    <div class="chose" ng-hide="collect || shield || report">
+                        <a href="javascript:;" ng-click="showImg('collect')">收藏</a>
+                        <a href="javascript:;" ng-click="showImg('shield')">屏蔽</a>
+                        <a href="javascript:;" ng-click="showImg('report')">举报</a>
+                        <button ng-click="modal.hide()">取消</button>
+                    </div>
+                    <div class="state">
+                        <p ng-show="collect">
+                            <img src="images/4_03.png">
+                            <span>已收藏</span>
+                        </p>
+                        <p ng-show="shield">
+                            <img src="images/4_03.png">
+                            <span>已屏蔽</span>
+                        </p>
+                        <p ng-show="report">
+                            <img src="images/4_03.png">
+                            <span>已举报</span>
+                        </p>
+                    </div>
+                </ion-content>
+            </ion-modal-view>
+        </script>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,21 @@
+<ion-view view-title="发布文章" class="addstatus">
+    <ion-content>
+        <form name="addStatus">
+            <div class="header">
+                <a href="javascript:history.back()"><i class="icon backarr"></i></a>
+                <input type="submit" value="发送" ng-disabled="addStatus.$invalid" class="button"
+                       ng-click="plusArticle()" ui-sref="tabs.circle">
+            </div>
+            <div class="main">
+            <textarea name="article" ng-model="article.text">
+            </textarea>
+                <a href="javascript:;"><i class="icon ion-location"></i>所在位置</a>
+            </div>
+        </form>
+        <ul>
+            <li><a href="javascript:;"><i class="icon ion-earth"></i>谁可以看<span>公开</span></a></li>
+            <li><a href="javascript:;"><i class="icon ion-at"></i>提醒谁看</a></li>
+        </ul>
+        <p><i class="loge"></i></p>
+    </ion-content>
+</ion-view>

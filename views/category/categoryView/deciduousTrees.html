@@ -1,0 +1,7 @@
+<ion-view view-title="落叶乔木" class="category1">
+    <ul class="category-plant">
+        <li ng-repeat="categoryPlant in categoryPlants[0].plant1" ng-click="toPlantDetails(categoryPlant.id)">
+            <a href="javascript:;"> <img ng-src="{{categoryPlant.imageUrl}}"><p>{{categoryPlant.name}}</p></a>
+        </li>
+    </ul>
+</ion-view>

@@ -1,0 +1,23 @@
+<ion-view title="编辑">
+    <ion-header-bar>
+        <a ui-sref="personalHome"><i class="icon backarr"></i></a>
+        <h1>编辑</h1>
+        <button class="button" ui-sref="personalHome">完成</button>
+    </ion-header-bar>
+    <ion-content class="edit">
+        <ion-list>
+            <ion-item>
+                <span>昵称:</span><input type="text" ng-model="page_manage.currentAccount.info.nickname" />
+            </ion-item>
+            <ion-item>
+                <span>性别:</span><input type="text" ng-model="page_manage.currentAccount.info.gender" />
+            </ion-item>
+            <ion-item>
+                <span>所在地:</span><input type="text" ng-model="page_manage.currentAccount.info.location" />
+            </ion-item>
+            <ion-item>
+                <span>简介:</span><input type="text" ng-model="page_manage.currentAccount.info.introduction" />
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

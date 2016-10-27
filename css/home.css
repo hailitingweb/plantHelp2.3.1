@@ -1,0 +1,137 @@
+.has-tabs-top {
+	top: 0px;
+}
+#content_home{
+    background-color: #f7f7f7;
+}
+#content_home .banner {
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    height: 30vh;
+    z-index: -20;
+}
+/*#content_home .slider {
+    position: absolute;
+    z-index: -10;
+}*/
+#content_home .box{
+	width: auto;
+	overflow: hidden;
+	position: relative;
+}
+#content_home .box img{
+	height: 30vh;
+}
+.slider-pager .slider-pager-page {
+	color: #eee;
+}
+#content_home .box p{
+	position: absolute;
+	left: 2rem;
+	color: #fff;
+}
+#content_home .box .p1{
+	bottom: 4rem;
+	font-size: 2rem;
+	line-height: 3rem;
+	font-weight: 700;
+}
+#content_home .box .p2{
+	bottom: 2.4rem;
+	font-size: 1.7rem;
+}
+#content_home .search{
+	position: relative;
+}
+#content_home .search i{
+	position: absolute;
+	top: 1rem;
+	left: 16%;
+	font-size: 2rem;
+}
+#content_home .search input{
+	background-color: #e6e6e6;
+	margin: 1.5rem 2%;
+	border-radius: 10px;
+	width: 96%;
+	height: 3.2rem;
+	text-align: center;
+    color: #888;
+}
+.nav{
+	width: 120%;
+	height: 9vh;
+	overflow: hidden;
+    margin-bottom: 1.1rem;
+}
+.nav_plant{
+	display:block;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+.nav_plant img{
+	border-radius: 1rem;
+}
+.nav_plant span{
+	position: absolute;
+	top: 5vw;
+	left: 4vh;
+	color: #fff;
+	font-size: 2.4vh;
+}
+.scroll-bar-indicator{
+    width: 0!important;
+}
+.home-recommend{
+    background: #fff;
+    margin-bottom: .8rem;
+}
+#content_home .home-recommend h3,#content_home .home-recommend .more{
+    height: 3rem;
+    line-height: 3rem;
+    color: #9eb377;
+}
+.home-recommend h3{
+    font-size: 2rem;
+    float: left;
+    padding-left: .8rem;
+    margin-bottom: 0;
+}
+.home-recommend .more{
+    font-size: 1.6rem;
+    float: right;
+    padding-right: 1.2rem;
+}
+.home-recommend .recommend-img{
+    padding:0 .8rem;
+}
+#content_home p{
+    margin: 0;
+}
+.home-recommend .recommend-img{
+    position: relative;
+}
+.home-recommend .recommend-img span{
+    position: absolute;
+    left: 2.5rem;
+    bottom: 1.2rem;
+    color: #fff;
+    font-size: 1.8rem;
+}
+#content_home .home-recommend .desc{
+    color: #666;
+    padding:.4rem .8rem;
+    font-size: 2.3vh;
+    line-height: 4vh;
+}
+#recommend-title{
+	padding: 2vh 2.5vw 0;
+	margin-bottom: 0;
+}
+#recommend{
+	padding: 2.5vh;
+}
+#recommend p{
+	font-size: 2.2vh;
+}

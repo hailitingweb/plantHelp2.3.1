@@ -1,0 +1,184 @@
+body{
+    font-family: "Arial","微软雅黑";
+}
+.clear:after{
+    content: "200B";
+    font-size: 0px;
+    height: 0px;
+    display: block;
+    clear: both;
+}
+.logo{margin: 0 auto;
+    margin-top: 7.858vh;
+    margin-bottom: 6.3vh;
+    width: 25.866vw;
+    height:15.100vh;
+}
+.logo img{
+    width:100%;
+    display: block;
+}
+button.addbtn{
+    background: #fff;
+    border: none;
+    padding-right: 4vw;
+}
+.hot_push_content{
+    background: #f7f7f7;
+}
+.com_banner{
+    width: 100%;
+    height: 27vh;
+    background-image: url("../images/com_banner.jpg");
+    background-size: cover;
+    position: relative;
+}
+.userInfo{
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    margin-left:6.13vw;
+    display: table;
+}
+.head_img{
+    width:8vw;
+    height: 8vw;
+    border-radius: 4vw;
+    display:block;
+    float: left;
+}
+.head_nickname{
+    color: #fff;
+    line-height: 8vw;
+    margin-left: 1.7vw;
+    font-size: 3.3vw;
+    display: block;
+    float: left;
+}
+.userInfo>div{
+    line-height: 8vw;
+}
+.userInfo p{
+    line-height: 8.2vw;
+    color: #fff;
+    font-size: 4vw;
+}
+
+.mylist .list{
+    margin-top: 5.3vw;
+    background: #fff;
+    border: none;
+}
+.mylist .us{
+    border-bottom: none;
+    padding-top: 3.46vw;
+    border: none;
+    position: relative;
+}
+.mylist .us p{
+    font-size: 4vw;
+    color: #9eb377
+}
+.mylist .us time{
+    font-size: 1.6vw
+}
+.mylist .us i{
+    position: absolute;
+    right: 6vw;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc;
+}
+.mylist .my_desc{
+    border: none;
+    padding: 10px;
+}
+.mylist .my_img{
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    height: 30vw;
+    overflow: hidden;
+}
+.mylist .my_img img{
+    width: 100%;
+}
+.my_tabs{
+    border-top: none;
+    padding:5px;
+    padding-top: 10px;
+}
+.my_tabs .tabs{
+    position: static;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+}
+.tabs-icon-left.tabs .my_item{
+    color: #666;
+    font-size: 4vw;
+}
+.tabs-icon-left.tabs .tab-item .icon.mi{
+    margin-right: 8px
+}
+.tabs-icon-left.tabs .tab-item.collected .icon{
+    color: #9eb474;
+}
+.tabs .tab-item.collected .icon{
+    color: #9eb474;
+}
+/*------------------模态窗口部分，需要增加样式-------------------------*/
+.modal{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left:0px;
+    top:0px;
+    background: rgba(0,0,0,.4);
+}
+.modal .wrap{
+    position: absolute;
+    left:0px;
+    bottom: 0px;
+    width: 100%;
+}
+.modal .wrap .button{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border: none;
+    color: #9eb377;
+    background: #f2f2f2;
+}
+.modal .wrap p{
+    margin: 0px;
+    padding: 0px;
+    height: 11.866vw;
+    line-height: 11.8666vw;
+    padding-left: 3.86vw;
+    font-size: 3.73vw;
+    color: #666;
+    background: #f2f2f2;
+}
+.modal .wrap .m_row{
+    background: #f2f2f2;
+}
+/*---------------------------------*/
+/*----------------nerby----------------*/
+.nearby .friends .subitem.active i{color: #9eb377}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

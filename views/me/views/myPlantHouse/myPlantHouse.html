@@ -1,0 +1,20 @@
+<ion-view class="myplanthouse">
+    <ion-header-bar>
+        <a href="javascript:history.back()" class="comment-link"><i class="icon backarr"></i></a>
+        <h1>我的植物馆</h1>
+        <i class="icon ion-more"></i>
+    </ion-header-bar>
+    <ion-content>
+        <ul>
+            <li ng-repeat="item in myPlantHouseList">
+                <a href="#/plantDetails?id={{item.id}}">
+                    <div><img ng-src="{{item.imageUrl}}"></div>
+                    <h3>{{item.name}}</h3>
+                    <p>[学名]<i class="sname">{{item.scientificName}}</i></p>
+                    <p>[科属]<i>{{item.type}}</i></p>
+                    <p>[别名]<i>{{item.alias}}</i></p>
+                </a>
+            </li>
+        </ul>
+    </ion-content>
+</ion-view>

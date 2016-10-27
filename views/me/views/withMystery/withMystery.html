@@ -1,0 +1,35 @@
+<ion-view class="withmystery">
+    <ion-header-bar>
+        <a href="javascript:history.back()" class="comment-link"><i class="icon backarr"></i></a>
+        <h1>植谜</h1>
+        <i class="icon ion-more"></i>
+    </ion-header-bar>
+    <ion-content>
+        <div class="mystery-more">
+            <a href="javascript:;">推荐我自己，获取活跃<i class="arr"></i></a>
+            <a href="javascript:;">涨迷趋势，一看便涨<i class="arr"></i></a>
+        </div>
+        <ul>
+            <li>
+                <a href="javascript:;"><p>你感兴趣的人<span>更多</span><i class="arr"></i></p></a>
+            </li>
+            <li ng-repeat="item in meLists[3].intersting">
+                <a href="javascript:;">
+                    <img ng-src="{{item.headImg}}">
+                    <h5>{{item.name}}</h5>
+                    <p>{{item.introduce}}</p>
+                </a>
+            </li>
+        </ul>
+        <p>全部植迷</p>
+        <ul>
+            <li ng-repeat="item in meLists[4].allMystery">
+                <a href="javascript:;">
+                    <img ng-src="{{item.headImg}}">
+                    <h5>{{item.name}}</h5>
+                    <p>{{item.introduce}}</p>
+                </a>
+            </li>
+        </ul>
+    </ion-content>
+</ion-view>

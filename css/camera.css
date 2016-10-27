@@ -1,0 +1,29 @@
+.camera .backarr{
+    background: url("../images/14_03.png") no-repeat center /cover;
+    width: 4vw;
+    height: 7vw;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+.camera ion-view.camera.pane .has-tabs {
+    bottom: 0px;
+}
+.camera .scroll a{
+    z-index: 10;
+    left: 2vw;
+    position: absolute;
+    top: 0vh;
+    width: 4vw;
+    height: 4vh;
+}
+.camera .scroll img{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+
+

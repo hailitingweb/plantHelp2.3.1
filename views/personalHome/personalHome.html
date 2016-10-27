@@ -1,0 +1,46 @@
+<ion-view view-title="个人信息" class="personalhome">
+    <ion-header-bar>
+        <a ui-sref="tabs.me" class="comment-link"><i class="icon backarr"></i></a>
+        <h1>个人信息</h1>
+    </ion-header-bar>
+    <ion-content>
+        <ion-list>
+            <ion-item ui-sref="edit">
+                <span  style="font-size: 16px;">编辑信息</span>
+                <i class="icon ion-chevron-right" style="position: absolute;right: 1rem;"></i>
+            </ion-item>
+        </ion-list>
+        <ion-list>
+            <ion-item>
+                <span>登录账号：</span><span>{{page_manage.currentAccount.info.account_name}}</span>
+            </ion-item>
+            <ion-item>
+                <span>昵称：</span><span>{{page_manage.currentAccount.info.nickname}}</span>
+            </ion-item>
+            <ion-item>
+                <span>性别：</span><span>{{page_manage.currentAccount.info.gender}}</span>
+            </ion-item>
+            <ion-item>
+                <span>所在地：</span><span>{{page_manage.currentAccount.info.location}}</span>
+            </ion-item>
+            <ion-item>
+                <span>简介：</span><span>{{page_manage.currentAccount.info.introduction}}</span>
+            </ion-item>
+            <ion-item>
+                <span>QQ号：</span><span>{{page_manage.currentAccount.info.qq}}</span>
+            </ion-item>
+        </ion-list>
+        <ion-list>
+            <ion-item>
+                <span>信用度：</span><span>{{page_manage.currentAccount.info.credit}}</span>
+            </ion-item>
+            <ion-item>
+                <span>植物等级：</span><span>{{page_manage.currentAccount.info.level}}</span>
+            </ion-item>
+            <ion-item>
+                <span>注册时间：</span><span>{{page_manage.currentAccount.info.regist_date |date:'yyyy年MM月dd日'}}</span>
+            </ion-item>
+        </ion-list>
+
+    </ion-content>
+</ion-view>
